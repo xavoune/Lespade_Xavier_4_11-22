@@ -1087,3 +1087,8 @@ h4 {
 blockquote p {
     font-size: 2rem;
 }
+
+.row-footer {
+    display: flex;
+    justify-content: center;
+}
