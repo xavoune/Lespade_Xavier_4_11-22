@@ -335,7 +335,7 @@ a:hover {
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
-    border: 2px solid #c27956;
+    border: 2px solid black;
 }
 
 .navbar-toggle {
@@ -466,7 +466,7 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-    border: 2px solid #c27956;
+    border: 2px solid black;
 }
 
 button {
@@ -525,7 +525,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -686,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -711,6 +710,11 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+a.social {
+    width: 40px;
+    height: 40px;
 }
 
 h2 {
@@ -766,7 +770,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1101,5 +1105,5 @@ blockquote p {
 }
 
 a:focus {
-    border: 2px solid #c27956;
+    border: 2px solid black;
 }
